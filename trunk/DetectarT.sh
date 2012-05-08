@@ -109,7 +109,7 @@ fi
 pendientes=`ls ${GRUPO}/inst_recibidas`
 if [ -n "$pendientes" ]
 then
-pid=`pgrep grabarParqueT.sh`
+pid=`pgrep GrabarParqueT.sh`
 	if [ $? -eq 0 ]
 	then
 		echo "Error: GrabarParqueT ya se está ejecutando bajo pid=${pid}."
